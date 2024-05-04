@@ -103,15 +103,24 @@
     padding-bottom: 40px;
   }
   .bicicleta-imagens {
-    grid-row: 2;
+    grid-row: 1;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 470px) {
   .bicicleta-informacoes {
     grid-template-columns: 1fr;
   }
   .bicicleta-comprar {
     grid-template-columns: 1fr;
+  }
+  .bicicleta-imagens {
+    display: none;
+  }
+}
+
+@media (min-width: 471px) {
+  .bicicleta-imagens-mobile {
+    display: none;
   }
 }
