@@ -78,7 +78,7 @@
     padding: 20px;
   }
   .contato-dados {
-    border-radius: 5px 5px 0 0;
+    border-radius: 0px 0px 0 0;
     background: var(--cor-12);
   }
   .contato-formulario {
