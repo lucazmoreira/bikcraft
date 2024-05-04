@@ -27,7 +27,7 @@
 .botao.secundario {
   background: var(--cor-10);
   color: var(--cor-2);
-  width: max-content;
+  white-space: nowrap;
 }
 
 .botao.secundario:hover {
